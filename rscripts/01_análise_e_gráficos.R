@@ -93,7 +93,7 @@ ggplot() +
   theme(panel.border = element_blank(), panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"),
         plot.title = element_text(hjust = 0.5), legend.position = "bottom") +
-  labs(caption = "Fonte: Atlas do Estado Brasileiro (IPEA). Valores deflacionados pelo IPCA.")
+  labs(caption = "Fonte: Atlas do Estado Brasileiro (IPEA). Valores deflacionados pelo IPCA em valores de 2020")
 
 ggsave('output/remuneração_real.png', width = 9, height = 6, dpi = 300)
 

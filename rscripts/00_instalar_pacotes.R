@@ -9,3 +9,4 @@ pacotes <- c('readr',
              'ggpubr')
 
 install.packages(pacotes)
+
